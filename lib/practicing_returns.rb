@@ -19,9 +19,9 @@ hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
 #     i += 1
 #   end
 # end
-# 
-# hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" 
-# 
+#
+# hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}"
+#
 # def hello(array)
 #   i = 0
 #   while i < array.length
