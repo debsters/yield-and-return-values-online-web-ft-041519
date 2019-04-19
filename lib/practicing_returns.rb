@@ -1,9 +1,9 @@
 # require 'pry'
-# Here we are setting a variable, collection, equal to an empty array. 
+# Here we are setting a variable, collection, equal to an empty array.
 # Then, inside our while loop, we push the return value of using yield(array[i]) into that collection array.
 #We need to return that new collection at the end of our method
 
-# while loop, yielded each individual member of an array to a block and captured the return values of yielding those items to the block. 
+# while loop, yielded each individual member of an array to a block and captured the return values of yielding those items to the block.
 # This is exactly how the #collect method works, and we've just built it out, all by ourselves.
 def hello(array)
   i = 0
